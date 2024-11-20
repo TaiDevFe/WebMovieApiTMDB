@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import logo from '../assets/logo.png'
 import { Link, NavLink, useLocation, useNavigate } from 'react-router-dom'
 import userIcon from '../assets/user.png'
+import useranhtai from '../assets/useranhtai.jpg'
 import { IoSearchOutline } from "react-icons/io5";
 import { navigation } from '../contants/navigation';
 
@@ -60,9 +61,9 @@ const Header = () => {
                                 <IoSearchOutline/>
                         </button>
                     </form>
-                    <div className='w-8 h-8 rounded-full overflow-hidden cursor-pointer active:scale-50 transition-all'>
+                    <div className='w-9 h-9 rounded-full overflow-hidden cursor-pointer active:scale-50 transition-all'>
                         <img
-                            src={userIcon}
+                            src={useranhtai}
                             width='w-ful h-full' 
                         />
                     </div>
